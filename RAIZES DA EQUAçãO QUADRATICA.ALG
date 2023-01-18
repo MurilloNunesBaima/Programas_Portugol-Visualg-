@@ -1,11 +1,11 @@
-Algoritmo "raizes da equação quadratica"
+Algoritmo "raizes da equacao quadratica"
 
 Var
  a,b,c,x1,x2,delta:real
  fim:inteiro
 
 Inicio
-escreval("Calculadora de raizes da equação quadratica")
+escreval("Calculadora de raizes da equacao quadratica")
 repita
 escreva("Digite o valor do Termo A: ")
 leia(a)
@@ -16,7 +16,7 @@ leia(c)
 
 delta <- exp(b, 2)+(-4*a*c)
 se(delta < 0)entao
-         escreval("Valor de delta menor que 0, essa equação não intercepta o eixo X")
+         escreval("Valor de delta menor que 0, essa equacao nao intercepta o eixo X")
 senao
      x1 <- (-b + raizq(delta))/(2*a)
      x2 <- (-b - raizq(delta))/(2*a)
